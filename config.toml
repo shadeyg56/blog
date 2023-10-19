@@ -1,0 +1,42 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "Shade's Blog"
+theme = 'PaperMod'
+paginate = 5
+
+[params]
+title = "Shade's Blog"
+defaultTheme = "auto"
+showtoc = true
+ShowWordCount = true
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+
+[params.homeInfoParams]
+Title = "Hi and welcome to my blog"
+Content = "Sometimes I post my useless thoughts here. They're mostly about computers"
+
+[[params.socialIcons]]
+name = "github"
+title = "Github"
+url = "https://github.com/shadeyg56"
+
+[[params.socialIcons]]
+name = "rss"
+title = "RSS Feed"
+url = "index.xml/"
+
+[[menu.main]]
+indentifier = "tags"
+name = "Tags"
+url = "tags/"
+weight = 1
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "search/"
+weight = 2
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
