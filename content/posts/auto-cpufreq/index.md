@@ -25,7 +25,7 @@ After working with the project owner, [Adnan Hodzic](https://github.com/AdnanHod
 
 We very recently introduced a GTK based GUI in v2.0.0 of auto-cpufreq. I am very grateful to Adnan for trusting me to work on creating the first GUI for auto-cpufreq. I personally find myself using it quite a bit and I hope others will as well. 
 
-![auto-cpufreq-gtk](https://camo.githubusercontent.com/e33ce653f12f4933bdd769ddae47708cd77bd6685dbaf3a3676b2e62f743f857/687474703a2f2f666f6f6c636f6e74726f6c2e6f72672f77702d636f6e74656e742f75706c6f6164732f323032332f30392f6175746f2d637075667265712d76322d6775692e706e67)
+![auto-cpufreq-gtk](images/gui.png)
 
 
 I am by no means a GUI designer, so I wanted to keep it simple. auto-cpufreq doesn't have a lot for the user to do so I only added what I thought was necessary. I think it turned out pretty well.
