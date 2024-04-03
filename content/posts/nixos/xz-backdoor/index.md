@@ -1,6 +1,7 @@
 +++
 title = 'How the xz backdoor highlights a major flaw in Nix'
 date = 2024-04-02T21:09:17-05:00
+tags = ['Linux', 'NixOS', 'Security']
 draft = false
 +++
 
